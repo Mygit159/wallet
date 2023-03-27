@@ -1,0 +1,17 @@
+#    配置端口号
+server:
+  port: 8080
+#配置项目名
+spring:
+  application:
+    name: store_app
+#配置数据源
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: wgq445566.
+    url:  jdbc:mysql://localhost/store_app?characterEncoding=utf-8
+#mybatis-plus
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
